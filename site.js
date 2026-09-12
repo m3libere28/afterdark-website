@@ -4,3 +4,6 @@ const video=document.getElementById('walkthrough');const status=document.getElem
 const paint=()=>{const playing=!hero.paused;toggle.textContent=playing?'Pause motion':'Play motion';toggle.setAttribute('aria-pressed',String(playing));toggle.setAttribute('aria-label',playing?'Pause hero animation':'Play hero animation');};
 const update=async()=>{if(wanted&&visible&&!document.hidden){if(!hero.getAttribute('src'))hero.src=hero.dataset.src;try{await hero.play();}catch{paint();}}else hero.pause();};
 hero.addEventListener('playing',()=>{hero.parentElement.classList.add('motion-ready');paint();});hero.addEventListener('pause',paint);hero.addEventListener('error',()=>{hero.parentElement.classList.remove('motion-ready');toggle.hidden=true;});toggle.addEventListener('click',()=>{wanted=!wanted;update();});reduced.addEventListener('change',()=>{wanted=!reduced.matches;update();});document.addEventListener('visibilitychange',update);new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;update();},{threshold:.1}).observe(hero.parentElement);})();
+
+// Only one audible demonstration at a time.
+const audibleDemos=[document.getElementById('highlight-video'),document.getElementById('walkthrough')].filter(Boolean);audibleDemos.forEach(current=>current.addEventListener('play',()=>audibleDemos.forEach(other=>{if(other!==current)other.pause();})));
