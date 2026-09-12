@@ -3,5 +3,7 @@
   "bpm": 92,
   "style": "Original instrumental jazz boom-bap",
   "sources": "All instruments synthesized by compose-midnight-crates.py. No sampled recordings, vocals, or borrowed melodies.",
-  "purpose": "Loaded into Afterdark for live demo capture; scratch, EQ, echo and blend are app output."
+  "purpose": "Loaded into Afterdark for live demo capture; scratch, EQ, echo and blend are app output.",
+  "performance": "Continuous live performance: deck B scratching over deck A, echo and EQ, smooth 32-beat phrase blend, record while deck B keeps playing. No audition restores or audible-track restarts.",
+  "postproduction": "Full HD captions, loudness normalization and 2.5-second ending fade."
 }
