@@ -3,3 +3,13 @@
 @media(min-width:1100px){.hero{display:grid;grid-template-columns:42% 58%;align-items:center;min-height:0;padding-top:45px}.hero-copy{max-width:none}h1{font-size:clamp(64px,6.3vw,100px)}.hero-device{margin:0 -9% 0 -3%}.hero-foot{grid-column:1/-1}.hero-device figcaption{margin:0 9% 24px 3%;text-align:center}.lead{font-size:18px}}
 
 .hero-media{position:relative;isolation:isolate}.hero-media>video{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;opacity:0;pointer-events:none;mix-blend-mode:screen}.hero-media.motion-ready>video{opacity:1}.hero-media.motion-ready>img{visibility:hidden}#hero-motion-toggle{position:absolute;right:7%;bottom:6%;border:1px solid #b99a5e77;background:#10120edb;color:#ead4a9;border-radius:30px;padding:10px 16px;font-size:12px;min-height:44px;backdrop-filter:blur(8px)}#hero-motion-toggle:hover{background:#2e281c}.hero-device figcaption a{color:#e3c185;text-underline-offset:3px}
+
+/* Shared atmosphere and feathered media keep the hero in the page, without a card edge. */
+.hero{isolation:isolate;background:none}.hero::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at 78% 38%,#b17a2720,transparent 57%),radial-gradient(ellipse at 34% 68%,#087f8920,transparent 56%)}
+.hero-media{isolation:auto}.hero-media>img,.hero-media>video{-webkit-mask-image:linear-gradient(to bottom,transparent 0%,#000 14%,#000 77%,transparent 100%);mask-image:linear-gradient(to bottom,transparent 0%,#000 14%,#000 77%,transparent 100%)}
+.hero-media::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(to right,#080909,transparent 6%,transparent 94%,#080909);z-index:1}
+.hero-copy{text-shadow:0 2px 28px #080909}.hero-device figcaption{font-size:11px;letter-spacing:.08em;color:#85877b;margin-top:-12px}
+#hero-motion-toggle{z-index:2;bottom:5%;border-color:#b99a5e33;background:#10120e99;padding:8px 13px;font-size:11px}
+@media(min-width:1100px){.hero-device{margin:0 -12% 0 -7%}.hero-copy{z-index:2}.hero{padding-bottom:0}.hero-device figcaption{margin-bottom:20px}}
+@media(max-width:850px){.hero-device{margin:-10px -7% 0}.hero-media>img,.hero-media>video{-webkit-mask-image:linear-gradient(to bottom,transparent,#000 13%,#000 77%,transparent);mask-image:linear-gradient(to bottom,transparent,#000 13%,#000 77%,transparent)}.hero-device figcaption{margin-bottom:22px}}
+.hero-media::after{display:none}.hero-media{-webkit-mask-image:linear-gradient(to right,transparent,#000 6%,#000 95%,transparent);mask-image:linear-gradient(to right,transparent,#000 6%,#000 95%,transparent)}
