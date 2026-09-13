@@ -3,14 +3,15 @@
     "order": 1,
     "week": 1,
     "slot": "Monday",
-    "title": "Meet your\npocket booth",
+    "title": "Your music folder. Your next DJ set.",
     "format": "Reel",
     "files": [
-      "01-newmusic.mp4"
+      "01-strategy.mp4"
     ],
     "caption": "01-caption.txt",
     "disclosure": "Edited promotional soundtrack: Horizon Engine. This is not live app audio. App imagery / promotional footage.",
-    "status": "prepared; publishing paused"
+    "status": "approved; awaiting scheduled publication",
+    "objective": "Introduce the product"
   },
   {
     "order": 2,
@@ -25,48 +26,50 @@
     ],
     "caption": "02-caption.txt",
     "disclosure": "Original educational graphics; app interface shown where pictured.",
-    "status": "prepared; publishing paused"
+    "status": "approved; awaiting scheduled publication",
+    "objective": "Reduce first-session friction"
   },
   {
     "order": 3,
     "week": 1,
     "slot": "Friday",
-    "title": "Hear the\nscratch",
+    "title": "Give your mix a scratch accent.",
     "format": "Reel",
     "files": [
-      "03-newmusic.mp4"
+      "03-strategy.mp4"
     ],
     "caption": "03-caption.txt",
     "disclosure": "Edited promotional soundtrack: Crown Signal - DJ Edit. This is not live app audio. App imagery / promotional footage.",
-    "status": "prepared; publishing paused"
+    "status": "approved; awaiting scheduled publication",
+    "objective": "Show scratch controls without audio misrepresentation"
   },
   {
     "order": 4,
     "week": 2,
     "slot": "Monday",
-    "title": "Control room",
-    "format": "Carousel",
+    "title": "Two tracks fighting for space?",
+    "format": "Reel",
     "files": [
-      "04-slide-1.jpg",
-      "04-slide-2.jpg",
-      "04-slide-3.jpg"
+      "04-strategy.mp4"
     ],
     "caption": "04-caption.txt",
-    "disclosure": "Original educational graphics; app interface shown where pictured.",
-    "status": "prepared; publishing paused"
+    "disclosure": "Illustrated EQ lesson with Crown Signal - DJ Edit soundtrack. Not live app audio or an audible before-and-after test.",
+    "status": "approved; awaiting scheduled publication",
+    "objective": "Teach bass-space technique"
   },
   {
     "order": 5,
     "week": 2,
     "slot": "Wednesday",
-    "title": "Follow the\nhandoff",
+    "title": "Make room for the next track.",
     "format": "Reel",
     "files": [
-      "05-newmusic.mp4"
+      "05-strategy.mp4"
     ],
     "caption": "05-caption.txt",
     "disclosure": "Edited promotional soundtrack: Warehouse Bloom. This is not live app audio. App imagery / promotional footage.",
-    "status": "prepared; publishing paused"
+    "status": "approved; awaiting scheduled publication",
+    "objective": "Explain transition intent"
   },
   {
     "order": 6,
@@ -81,20 +84,22 @@
     ],
     "caption": "06-caption.txt",
     "disclosure": "Original educational graphics; app interface shown where pictured.",
-    "status": "prepared; publishing paused"
+    "status": "approved; awaiting scheduled publication",
+    "objective": "Qualify buyers"
   },
   {
     "order": 7,
     "week": 3,
     "slot": "Monday",
-    "title": "After hours.\nNew sound.",
+    "title": "Which mood fits your next set?",
     "format": "Reel",
     "files": [
-      "07-newmusic.mp4"
+      "07-strategy.mp4"
     ],
     "caption": "07-caption.txt",
     "disclosure": "Edited promotional soundtrack: Glass After Midnight - DJ Edit. This is not live app audio. Animated waveform of the new track.",
-    "status": "prepared; publishing paused"
+    "status": "approved; awaiting scheduled publication",
+    "objective": "Invite a music preference"
   },
   {
     "order": 8,
@@ -109,7 +114,8 @@
     ],
     "caption": "08-caption.txt",
     "disclosure": "Original educational graphics; app interface shown where pictured.",
-    "status": "prepared; publishing paused"
+    "status": "approved; awaiting scheduled publication",
+    "objective": "Help select tracks"
   },
   {
     "order": 9,
@@ -124,6 +130,7 @@
     ],
     "caption": "09-caption.txt",
     "disclosure": "Original educational graphics; app interface shown where pictured.",
-    "status": "prepared; publishing paused"
+    "status": "approved; awaiting scheduled publication",
+    "objective": "Encourage deliberate practice"
   }
 ]
