@@ -6,10 +6,10 @@
     "title": "Meet your\npocket booth",
     "format": "Reel",
     "files": [
-      "01-reel.mp4"
+      "01-newmusic.mp4"
     ],
     "caption": "01-caption.txt",
-    "disclosure": "Promotional cinematic with edited Horizon Engine soundtrack.",
+    "disclosure": "Edited promotional soundtrack: Horizon Engine. This is not live app audio. App imagery / promotional footage.",
     "status": "prepared; publishing paused"
   },
   {
@@ -34,10 +34,10 @@
     "title": "Hear the\nscratch",
     "format": "Reel",
     "files": [
-      "03-reel.mp4"
+      "03-newmusic.mp4"
     ],
     "caption": "03-caption.txt",
-    "disclosure": "Actual app recording. Original audio retained; no replacement song. Desktop-browser interface capture; not filmed on a physical phone.",
+    "disclosure": "Edited promotional soundtrack: Crown Signal - DJ Edit. This is not live app audio. App imagery / promotional footage.",
     "status": "prepared; publishing paused"
   },
   {
@@ -62,10 +62,10 @@
     "title": "Follow the\nhandoff",
     "format": "Reel",
     "files": [
-      "05-reel.mp4"
+      "05-newmusic.mp4"
     ],
     "caption": "05-caption.txt",
-    "disclosure": "Actual app recording. Original audio retained; no replacement song. Desktop-browser interface capture; not filmed on a physical phone.",
+    "disclosure": "Edited promotional soundtrack: Warehouse Bloom. This is not live app audio. App imagery / promotional footage.",
     "status": "prepared; publishing paused"
   },
   {
@@ -87,13 +87,13 @@
     "order": 7,
     "week": 3,
     "slot": "Monday",
-    "title": "Listen to\nthe booth",
+    "title": "After hours.\nNew sound.",
     "format": "Reel",
     "files": [
-      "07-reel.mp4"
+      "07-newmusic.mp4"
     ],
     "caption": "07-caption.txt",
-    "disclosure": "Actual app recording. Original audio retained; no replacement song. Waveform visualization, not a screen recording.",
+    "disclosure": "Edited promotional soundtrack: Glass After Midnight - DJ Edit. This is not live app audio. Animated waveform of the new track.",
     "status": "prepared; publishing paused"
   },
   {
