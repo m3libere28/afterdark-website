@@ -28,8 +28,3 @@ hero.addEventListener('playing',()=>{hero.parentElement.classList.add('motion-re
 // Only one audible demonstration at a time.
 const audibleDemos=[document.getElementById('highlight-video'),document.getElementById('walkthrough')].filter(Boolean);audibleDemos.forEach(current=>current.addEventListener('play',()=>audibleDemos.forEach(other=>{if(other!==current)other.pause();})));
 
-const filmDialog=document.getElementById('film-dialog'),film=document.getElementById('premium-film');
-document.getElementById('watch-film').addEventListener('click',()=>{audibleDemos.forEach(v=>v.pause());filmDialog.showModal();film.play().catch(()=>{});});
-document.getElementById('close-film').addEventListener('click',()=>filmDialog.close());
-filmDialog.addEventListener('close',()=>film.pause());
-film.addEventListener('play',()=>audibleDemos.forEach(v=>v.pause()));

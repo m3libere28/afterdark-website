@@ -46,3 +46,6 @@ img{max-width:100%}button,a,summary{-webkit-tap-highlight-color:#e7c48433}button
 #film-dialog{width:min(1100px,94vw);max-height:94dvh;padding:18px;background:#10130f;color:#f2f0e9;border:1px solid #80663d;overflow:auto}#film-dialog::backdrop{background:#020403ed}.film-heading{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:14px}.film-heading h2{font-size:22px;line-height:1.2;margin:0}#close-film{min-height:44px;padding:8px 14px;color:#edce90;background:#24251e;border:1px solid #80663d;flex-shrink:0}#premium-film{aspect-ratio:16/9}body:has(#film-dialog[open]){overflow:hidden}@media(max-width:700px){#film-dialog{padding:10px}.film-heading h2{font-size:16px}}
 
 @media(max-width:700px){.hero .actions>.text-link{grid-column:1/-1;justify-content:flex-start}.hero .actions>.button{display:flex;align-items:center;justify-content:center;min-height:48px}}
+
+/* Full cinematic is the inline, autoplaying hero. */
+@media(max-width:700px){.hero .actions{grid-template-columns:1fr}.hero .actions>.text-link{grid-column:auto}.hero-device{margin-top:0}}
