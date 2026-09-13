@@ -1,0 +1,129 @@
+[
+  {
+    "order": 1,
+    "week": 1,
+    "slot": "Monday",
+    "title": "Meet your\npocket booth",
+    "format": "Reel",
+    "files": [
+      "01-reel.mp4"
+    ],
+    "caption": "01-caption.txt",
+    "disclosure": "Promotional cinematic with edited Horizon Engine soundtrack.",
+    "status": "prepared; publishing paused"
+  },
+  {
+    "order": 2,
+    "week": 1,
+    "slot": "Wednesday",
+    "title": "Start here",
+    "format": "Carousel",
+    "files": [
+      "02-slide-1.jpg",
+      "02-slide-2.jpg",
+      "02-slide-3.jpg"
+    ],
+    "caption": "02-caption.txt",
+    "disclosure": "Original educational graphics; app interface shown where pictured.",
+    "status": "prepared; publishing paused"
+  },
+  {
+    "order": 3,
+    "week": 1,
+    "slot": "Friday",
+    "title": "Hear the\nscratch",
+    "format": "Reel",
+    "files": [
+      "03-reel.mp4"
+    ],
+    "caption": "03-caption.txt",
+    "disclosure": "Actual app recording. Original audio retained; no replacement song. Desktop-browser interface capture; not filmed on a physical phone.",
+    "status": "prepared; publishing paused"
+  },
+  {
+    "order": 4,
+    "week": 2,
+    "slot": "Monday",
+    "title": "Control room",
+    "format": "Carousel",
+    "files": [
+      "04-slide-1.jpg",
+      "04-slide-2.jpg",
+      "04-slide-3.jpg"
+    ],
+    "caption": "04-caption.txt",
+    "disclosure": "Original educational graphics; app interface shown where pictured.",
+    "status": "prepared; publishing paused"
+  },
+  {
+    "order": 5,
+    "week": 2,
+    "slot": "Wednesday",
+    "title": "Follow the\nhandoff",
+    "format": "Reel",
+    "files": [
+      "05-reel.mp4"
+    ],
+    "caption": "05-caption.txt",
+    "disclosure": "Actual app recording. Original audio retained; no replacement song. Desktop-browser interface capture; not filmed on a physical phone.",
+    "status": "prepared; publishing paused"
+  },
+  {
+    "order": 6,
+    "week": 2,
+    "slot": "Friday",
+    "title": "Before you buy",
+    "format": "Carousel",
+    "files": [
+      "06-slide-1.jpg",
+      "06-slide-2.jpg",
+      "06-slide-3.jpg"
+    ],
+    "caption": "06-caption.txt",
+    "disclosure": "Original educational graphics; app interface shown where pictured.",
+    "status": "prepared; publishing paused"
+  },
+  {
+    "order": 7,
+    "week": 3,
+    "slot": "Monday",
+    "title": "Listen to\nthe booth",
+    "format": "Reel",
+    "files": [
+      "07-reel.mp4"
+    ],
+    "caption": "07-caption.txt",
+    "disclosure": "Actual app recording. Original audio retained; no replacement song. Waveform visualization, not a screen recording.",
+    "status": "prepared; publishing paused"
+  },
+  {
+    "order": 8,
+    "week": 3,
+    "slot": "Wednesday",
+    "title": "Pick your pair",
+    "format": "Carousel",
+    "files": [
+      "08-slide-1.jpg",
+      "08-slide-2.jpg",
+      "08-slide-3.jpg"
+    ],
+    "caption": "08-caption.txt",
+    "disclosure": "Original educational graphics; app interface shown where pictured.",
+    "status": "prepared; publishing paused"
+  },
+  {
+    "order": 9,
+    "week": 3,
+    "slot": "Friday",
+    "title": "Practice lab",
+    "format": "Carousel",
+    "files": [
+      "09-slide-1.jpg",
+      "09-slide-2.jpg",
+      "09-slide-3.jpg"
+    ],
+    "caption": "09-caption.txt",
+    "disclosure": "Original educational graphics; app interface shown where pictured.",
+    "status": "prepared; publishing paused"
+  }
+]
