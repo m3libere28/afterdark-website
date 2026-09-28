@@ -3,7 +3,7 @@ const status=document.getElementById('video-status');
 let chapterRequest=0;
 document.querySelectorAll('[data-chapter]').forEach(button=>button.addEventListener('click',async()=>{
  const request=++chapterRequest;
- document.getElementById('demo').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});
+ document.getElementById('full-tour').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});
  document.querySelectorAll('.chapters button').forEach(b=>b.classList.toggle('active',b.dataset.chapter===button.dataset.chapter));
  try{
   if(video.readyState<1){
@@ -26,5 +26,5 @@ const update=async()=>{if(wanted&&visible&&!document.hidden){if(!hero.getAttribu
 hero.addEventListener('playing',()=>{hero.parentElement.classList.add('motion-ready');paint();});hero.addEventListener('pause',paint);hero.addEventListener('error',()=>{hero.parentElement.classList.remove('motion-ready');toggle.hidden=true;});toggle.addEventListener('click',()=>{wanted=!wanted;update();});reduced.addEventListener('change',()=>{wanted=!reduced.matches;update();});document.addEventListener('visibilitychange',update);new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;update();},{threshold:.1}).observe(hero.parentElement);})();
 
 // Only one audible demonstration at a time.
-const audibleDemos=[document.getElementById('highlight-video'),document.getElementById('walkthrough')].filter(Boolean);audibleDemos.forEach(current=>current.addEventListener('play',()=>audibleDemos.forEach(other=>{if(other!==current)other.pause();})));
+const audibleDemos=[document.getElementById('fingertips-video'),document.getElementById('highlight-video'),document.getElementById('walkthrough')].filter(Boolean);audibleDemos.forEach(current=>current.addEventListener('play',()=>audibleDemos.forEach(other=>{if(other!==current)other.pause();})));
 
