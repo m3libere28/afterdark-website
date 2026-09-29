@@ -1,0 +1,22 @@
+{
+  "version": "0.10.8",
+  "duration_seconds": 60,
+  "footage": "Current Afterdark web interface in Chrome, 915x423 phone landscape layout. Native bridge mocked for browser capture; Android system dialogs not demonstrated. Opening uses the packaged intro animation.",
+  "soundtrack": "Audio copied unchanged from walkthrough-new-track.mp4; decoded audio MD5 c393df7fc1b3ba80232485aa363f0740. Edited soundtrack, not live mixer output.",
+  "chapters": {
+    "0": "Welcome",
+    "5": "Dual decks",
+    "12": "Library",
+    "17": "Scratch",
+    "25": "Colored pads",
+    "29": "DJ sounds",
+    "35": "EQ and effects",
+    "41": "Live visuals",
+    "47": "Record"
+  },
+  "outputs": [
+    "walkthrough-0.10.8.mp4",
+    "walkthrough-0.10.8-mobile.mp4"
+  ],
+  "validation": "Both audio and video streams are exactly 60 seconds; both outputs decode fully; soundtrack identical to previous tour."
+}
